@@ -1,6 +1,6 @@
-import gspread
-from gspread_dataframe import set_with_dataframe
-from gspread_dataframe import get_as_dataframe
+import pandas as pd
+# from gspread_dataframe import set_with_dataframe
+# from gspread_dataframe import get_as_dataframe
 
 
 class SheetManipulator:

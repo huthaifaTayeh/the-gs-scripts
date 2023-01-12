@@ -1,17 +1,14 @@
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import os
+# import gspread
+# import os
 
 
 class Sheet:
-    def __init__(self):
-        # Set up authentication credentials
-        scope = ['https://www.googleapis.com/auth/spreadsheets']
-        credentials = ServiceAccountCredentials.from_json_keyfile_name(os.environ['GOOGLE_APPLICATION_CREDENTIALS'],
-                                                                       scope)
 
-        # Open a connection to the Google Sheets API
-        self.client = gspread.authorize(credentials)
+    def __init__(self):
+        self.client = None
+
+    def set_client(self, client):
+        self.client = client
 
     def read_data(self, spreadsheet_name, sheet_name):
         # Access the desired spreadsheet
@@ -35,3 +32,11 @@ class Sheet:
 
         # Write data to the sheet
         worksheet.append_rows(data)
+# from oauth2client.service_account import ServiceAccountCredentials
+        # def __init__(self):
+        #     self.client = None
+        # Set up authentication credentials
+        # scope = ['https://www.googleapis.com/auth/spreadsheets']
+        # credentials = ServiceAccountCredentials.from_json_keyfile_name(os.environ['GOOGLE_APPLICATION_CREDENTIALS'],
+        #                                                                scope)
+        # self.client = gspread.authorize(credentials)
