@@ -17,3 +17,4 @@ sheet_manipulator = SheetManipulator(sheets_manager)
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 app = SheetsApp(SCOPES, sheet, sheets_manager, sheet_generator, sheet_manipulator)
 app.establish_connection(os.environ.get("CRED_FILE"))
+
