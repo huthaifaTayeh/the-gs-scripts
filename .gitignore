@@ -1,5 +1,5 @@
 .idea/
-client_secret_430954265639-jvc42e4r49et9anqm6ot2l272hrcjams.apps.googleusercontent.com.json
-token.json
-
+private/client_secret_430954265639-jvc42e4r49et9anqm6ot2l272hrcjams.apps.googleusercontent.com.json
+private/token_personal.json
+private
 .env
