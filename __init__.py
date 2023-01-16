@@ -6,16 +6,18 @@ from app.sheet_classes.sheet_generator import SheetGenerator
 from app.sheet_classes.sheet_manipulator import SheetManipulator
 from app.sheet_classes.sheets_manager import SheetsManager
 from app.sheet_classes.authenticate import Authenticate
+from datetime import datetime, timedelta
 
 
 def instantiate(scopes):
     auth = Authenticate(scopes)
     auth.authenticate_with_creds(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
     sheet_inst = Sheet(auth.build_service())
-    sheets_manager_inst = SheetsManager(sheet_inst)
-    sheet_generator_inst = SheetGenerator(sheet_inst, sheets_manager_inst)
-    sheet_manipulator_inst = SheetManipulator(sheets_manager_inst)
-    app_inst = SheetsApp(scopes, sheet_inst, sheets_manager_inst, sheet_generator_inst, sheet_manipulator_inst)
+    sheets_mang_inst = SheetsManager(sheet_inst)
+    sheet_gen_inst = SheetGenerator(sheet_inst, sheets_mang_inst)
+    sheet_manip_inst = SheetManipulator(sheets_mang_inst)
+    spreadsheet_id = os.environ.get("GOOGLE_SHEETS_SPREADSHEET_ID")
+    app_inst = SheetsApp(scopes, spreadsheet_id, sheet_inst, sheets_mang_inst, sheet_gen_inst, sheet_manip_inst)
     return app_inst
 
 
@@ -33,9 +35,11 @@ def main():
     load_dotenv('./.env')
     scopes = ['https://www.googleapis.com/auth/spreadsheets']
     application = instantiate(scopes)
+    current_year = int(datetime.now().year)
+    application.hydrate_campaign_sheets()
+    # application.prepare_campaign_sheets(campaign_weeks_formatter(current_year)) #formatter must do TODO format the sheets with conditional formats also
     # application.establish_connection(os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"))
-    application.set_spreadsheet_id(os.environ.get("GOOGLE_SHEETS_SPREADSHEET_ID"))
-    application.set_marketers(application.read_from_range('meta-data!A:C'))
+    # application.set_spreadsheet_id(os.environ.get("GOOGLE_SHEETS_SPREADSHEET_ID"))
     # marketers_list = application.marketers['marketer_name'].values.ravel()
     # print(marketers_list)
     # filter_column_name = 'marketer_team_id'
@@ -44,7 +48,7 @@ def main():
     # print(mask)
     # filtered_column_list = marketers_list[mask]
     # print(filtered_column_list)
-    print(application.sheet_exists('meta-data'))
+    # print(application.grouped_df_dict('teams'))
 
 
 if __name__ == '__main__':

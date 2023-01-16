@@ -1,3 +1,4 @@
+import pandas as pd
 class SheetsManager:
     def __init__(self, sheet):
         self.sheet = sheet
@@ -15,20 +16,28 @@ class SheetsManager:
     def append_data(self, spreadsheet_id, sheet_name, data_df):
         self.sheet.append_data(spreadsheet_id, sheet_name, data_df)
 
-    def write_to_range(self, data, spreadsheet_id, range_):
-        self.__confirm_sheet_exist(spreadsheet_id, range_.split('!')[0])
+    def merge_dup_cells(self, spreadsheet_id, range_):
+        self.sheet.merge_column_dup_cells(spreadsheet_id=spreadsheet_id, range_=range_)
+
+    def write_to_range(self, data, spreadsheet_id, range_, types):
+        self.__confirm_or_create(spreadsheet_id, range_.split('!')[0])
         existing_data = self.read_data_from_range(spreadsheet_id, range_)
-        if not existing_data:
-            response = self.sheet.write_data_to_range(data, range_)
-            print(response)
+        self.sheet.write_data_to_range(data=data, range_=range_, spreadsheet_id=spreadsheet_id, types=types)
+        # if not isinstance(existing_data, pd.DataFrame):
+        #     print(response)
+        # else:
+        #     response = self.sheet.append_data_to_range(data=data, range_=range_, spreadsheet_id=spreadsheet_id, types=types)
+        # print(response)
+
+    def new_sheet(self, sheet_name):
+        if self.__confirm_or_create(sheet_name) == 'sheet already exists':
+            return False
         else:
-            response = self.sheet.append_data_to_range(data, range_)
-        print(response)
+            return True
 
     def sheet_exists(self, spreadsheet_id, sheet_name):
         # testing remove after
         return self.__confirm_sheet_exist(spreadsheet_id, sheet_name)
-
 
     @staticmethod
     def create_spreadsheet(title, scopes):
@@ -52,7 +61,9 @@ class SheetsManager:
 
     def __confirm_or_create(self, spreadsheet_id, sheet_name):
         sheet_exists = self.__confirm_sheet_exist(spreadsheet_id, sheet_name)
-        return True if sheet_exists else self.__new_sheet(spreadsheet_id, sheet_name)
+        if sheet_exists:
+            return 'sheet already exists'
+        self.__new_sheet(spreadsheet_id, sheet_name)
 
     def __confirm_sheet_exist(self, spreadsheet_id, sheet_name):
         spreadsheet = self.spreadsheets.get(spreadsheetId=spreadsheet_id).execute()
@@ -69,4 +80,5 @@ class SheetsManager:
             }
         }]
         body = {'requests': requests}
-        self.spreadsheets.batchUpdate(spreadsheetId=spreadsheet_id, body=body).execute()
+        response = self.spreadsheets.batchUpdate(spreadsheetId=spreadsheet_id, body=body).execute()
+        return response

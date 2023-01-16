@@ -1,0 +1,1542 @@
+{
+  'media': [
+    [
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtms1/B',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtgg1/B',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtr1/B',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtr2/T',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtw1/B',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtw2/T',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtbc1/t',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtbc2/t',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'kfgg2/B',
+        'service_name': 'KC GG'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frtgc1/B',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'kfb5',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Heba',
+        'account_name': 'frto',
+        'service_name': 'Organic'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhr2/t',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhw1/b',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhw2/t',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhw3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhbc1/b',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhbc2/b',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'Kfw4',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhg1/t',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'kfsi2/b',
+        'service_name': 'KC Siding'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fhbt1/b',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'kfsr1/b',
+        'service_name': 'KC Sunrooms'
+      },
+      {
+        'marketer_name': 'Jasmine',
+        'account_name': 'fho',
+        'service_name': 'Organic'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fjsl1-B',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fbjb1/B',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fbjb2/B',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fjwit1/T',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'kfb4/b',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fjbt1/B',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Nada Khammash',
+        'account_name': 'fjo',
+        'service_name': 'Organic'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fngg1/B',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fngg2/T',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnw1/B',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnw2/t',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnbc1 /B',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnbc2/T',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnwt2/T',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'kfg4/B',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fngc1/B',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fngc2/B',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fngc3/B',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'kfr2/B',
+        'service_name': 'KC Roofing'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'kfc/B',
+        'service_name': 'KC Cabinet'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'Kfb3/B',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'knb1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'knb4',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fzbt1/t',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fnbt1/t',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fzbt3/b',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fno1',
+        'service_name': 'Organic'
+      },
+      {
+        'marketer_name': 'Raghad',
+        'account_name': 'fno',
+        'service_name': 'Organic'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'SMS',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'Email',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fsgg1/t',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'Trgg',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fbmr5',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'Calls-33MR',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fzw3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'ttmw2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fsb1/b',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fswt1/b',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'knw1',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'ktg1',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'fsg1/Rem',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'knb1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'kob1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'kog1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'kfwt1',
+        'service_name': 'KC WIT'
+      },
+      {
+        'marketer_name': 'Reem',
+        'account_name': 'kfk1',
+        'service_name': 'KC kitchen'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'SMS',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'Email',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fsgg1/t',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'Trgg',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fbmr5',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'Calls-33MR',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fzw3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'ttmw2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fsb1/b',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fswt1/b',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'knw1',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'ktg1',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'fsg1/Rem',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'knb1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'kob1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'kog1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'kfwt1',
+        'service_name': 'KC WIT'
+      },
+      {
+        'marketer_name': 'Shahd',
+        'account_name': 'kfk1',
+        'service_name': 'KC kitchen'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'SMS',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'Email',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fsgg1/t',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'Trgg',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fbmr5',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'Calls-33MR',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fzw3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'ttmw2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fsb1/b',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fswt1/b',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'knw1',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'ktg1',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'fsg1/Rem',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'knb1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'kob1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'kog1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'kfwt1',
+        'service_name': 'KC WIT'
+      },
+      {
+        'marketer_name': 'special projects',
+        'account_name': 'kfk1',
+        'service_name': 'KC kitchen'
+      }
+    ]
+  ],
+  'search': [
+    [
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'rgg2/b',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'windowsestimator.com/lmsn2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'fbryw1/b',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'rw2/t',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'rw3/t',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'fbrybc1/b',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'rbca/b',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'kfw1/b',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'kfg3/b',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'Kfb2/b',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'kog1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'kob1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'rbt1 ',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'fbrym1/b',
+        'service_name': 'Organic'
+      },
+      {
+        'marketer_name': 'AbdelQader',
+        'account_name': 'fbryht1/b',
+        'service_name': 'Hottubs'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'topstairlifts.zone/bmsn16',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'Stairlifts.Sale/ang4',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'home.contractors/omsn17',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'betterhomesremodeling.com/ang2',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'rm1',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'Campaign1',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'guttercover.zone/omsn19',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'Yourhomeremodeling.Net/Service/Roofing/nmsn51',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'remodeling.com/roofing/mjg11',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'windowsestimator.com/lmsn1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'Yourhomeremodeling.Net/Windows/ang3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': '(Bath Conversion) (Ang5) (Top Bath Conversion.Com)',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Aya',
+        'account_name': 'guttercovering.com/kcg5',
+        'service_name': 'KC GG'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Stairlifts.Contractors/ag9, ag99',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'TopStairlifts.Zone/dg4',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'ProStairlifts.com/nmsn22',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Home.Contractors/dg8',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'RemodelingDeals.Net/hg20',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Remodelingdeals.Net/nmsn13',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'HomeRoofing.Deals/hg2,hg102',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'GetRoofingOffers.com/nmns42',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Homeroofing.Com/Lg3',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'WindowsEstimator.Com/hg5',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'HomeWindows.net/hmg1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'WindowCosts.Net/nmsn40',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'GetBathConversion.Com/nmsn56',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'HomeSecurityQuotes.Com/hg14',
+        'service_name': 'security'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'AlarmCosts.Com/ag24',
+        'service_name': 'security'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Bathroom.Services/hg4',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'BathroomPrices.Net/hg18',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'GetBathroomRemodeling.Com/nmsn45',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Restorations.zone/ag4',
+        'service_name': 'restoration'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Estimates.Solar/hg17,hg117',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Walkintubs.Zone/hg0, hg1, hg01',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'BestWindowCosts.Com/dg7',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Guttercosts.com/nmsn57',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Guttercosts.Com/Lg13 ',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'PestControl.Contractors/hg19',
+        'service_name': 'pest_control'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Bestroofingoffers.com/kcr5',
+        'service_name': 'KC Roofing'
+      },
+      {
+        'marketer_name': 'Hatem',
+        'account_name': 'Bestroofingoffers.Com/kcb3',
+        'service_name': 'KC Roofing'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'odd1/odd2/trafficvance',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'remodelingservice.net/nmsn23',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'Bestroofingoffers.com/nmsn12',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'House.Contractors/Service/Windows/MJG9',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'https://getbathconversion.com/mbg1',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'SolarSystemQuotes.com/nmsn34',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'Top.Solar/nmsn33',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'Homegutters.Net/KCB5',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Marah',
+        'account_name': 'ProStairlifts.com/mjg4',
+        'service_name': 'KC Stairlifts'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'stairliftdeals.net.com/mcg1',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Stairlifts.Zone/rb8',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Stairlifts.Zone/bmsn16',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'RemodelingService.net/mg20',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Renovations.Zone/mng11',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'guttercover.zone/dg12',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'protectgutters.com/mng12',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'guttercover.deals/ag47',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Yourhomeremodeling.Net/Service/Windows/omsn52',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'window.contractors/mng1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'HouseWindows.net/hg12',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'house.contractors/service/windows/mnb2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'primegutter.com/nmsn54',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'House.Contractors/mnb3',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'HomeSecurity.zone/ag5',
+        'service_name': 'security'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'goalarmsystems.com/mng8',
+        'service_name': 'security'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'BathroomRemodel.Net/lg19',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Bestwindowcosts.com/kcb1',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'Guttersprice.Com/mng19',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'primegutters.com/mnb8',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'house.contractors/service/gutters mng15',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'primegutter.com/mng16',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'quotes.yourhomeremodeling.net/service/gutter/mnb7',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'quotes.yourhomeremodeling.net/service/gutter/mng17',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Mira',
+        'account_name': 'siding.zone/kcg7',
+        'service_name': 'KC Siding'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'prostairlifts.com/njg1',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Multi Service Nada/ nmsn94',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Homeroofing.Com/ Nmsn92',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Home Roofing.Deals/(Hg2, Hg102)',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'windowsestimator.com/lmsn1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': '(Window Estimates.Net)   (Mjg1) ',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'bestwindowcosts.com/nmsn2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': ' Homewindows.Net/bmsn1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Thegutterspro.Com/njg3',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Thegutterspro.Com/nmsn93',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Thegutterspro.Com/nmsn95',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Nada Aljaafreh',
+        'account_name': 'Kc Bathroom Kcn92 Mybathroomremodeling.Com',
+        'service_name': 'KC Bathroom'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'stairliftsworld.com/nmsn20',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Stairliftsworld.com/ng07/ngd07',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Stairlifts.Zone/nmsn53',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'renovations.zone/nmsn36',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'betterhomesremodeling.com/ang2',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'topguttersprotector.com/nmsn72',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Windowsavings.com/amsn18',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'topwindowcosts/nmsn3',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Getwindowcosts.com/ng12',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'topwindowcosts.com/ng03/ng06',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'guttercovering.com/kcg5',
+        'service_name': 'KC GG'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Bathroom.services/smsn19',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Remodeling.com/bathroom (ng27)',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Topsolarsystems.com/amsn16',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Solarestimates.com/smsn29',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Solarestimates.net/ng05',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'windowcosts.net/ng92/ng93',
+        'service_name': 'KC Windows'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Gutters-pro.com/ng04/kcn04',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'cabinets.forsale/nmsn02',
+        'service_name': 'KC Cabinet'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'cabinets.forsale/ng02/ng09',
+        'service_name': 'KC Cabinet'
+      },
+      {
+        'marketer_name': 'Nadine',
+        'account_name': 'Bestofflooringdeals.com/ng01',
+        'service_name': 'flooring'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'Gethomecontractors.com/ag60',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'guttercover.zone/rb19',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'roofingcosts.net/ag8',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'windowsavings.net /rb9',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'TopWindows.com/lg1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'windows.remodeling.com/rbb15',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'windows.remodeling.com/rb22',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'getwidnowcosts.com/nmsn1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'My Bath Conversion.Com/rb26',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'topbathconversion.com/rbb1',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'Monitoredalarms.com/ag39',
+        'service_name': 'security'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'quotes.yourhomeremodeling/ag12',
+        'service_name': 'bathroom'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'Homegutters.Net/nmsn90',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'flooring.contractors/lg6',
+        'service_name': 'flooring'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'flooring.deals/rbb7',
+        'service_name': 'flooring'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'house.contractors/kcg1',
+        'service_name': 'KC Bathroom'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'bathtubcosts.com/rb12',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'bathtubcosts.com/rbb9',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'bathtubcosts.com/rbb3',
+        'service_name': 'bathtub'
+      },
+      {
+        'marketer_name': 'Riham',
+        'account_name': 'house.contractors/service/kitchen/rb23',
+        'service_name': 'kitchen'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'quotes.yourhomeremodeling.net/service/stairlift/rhg2',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Stairlifts.sale/amsn8',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'HomeContractors.Com/nmsn4',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Multiservice.Remodeling.com/rgh11',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Home Contractors.Com (Nmsn4)',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'homeroofing.deals/lmsn42',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'TopRoofingOffers.com/nmsn11',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Homeroofing.Deals /Lmsn42',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'homeprosnearby.com/service/windows/rhg1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Topwindows.com/Lg1',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Windowestimates.net - (omsn41)',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Estimates.solar/smsn5',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Walkintubs.Zone/nmsn25',
+        'service_name': 'WIT'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'house.contractors/service/gutter/rmsn3',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Gutterfinder.com/rhg8',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Gutters.remodeling.com/Rhg10',
+        'service_name': 'gutter'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Topsunrooms.com/rhg4',
+        'service_name': 'KC Sunrooms'
+      },
+      {
+        'marketer_name': 'Rita',
+        'account_name': 'Topsunrooms.com/rmsn2',
+        'service_name': 'KC Sunrooms'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmsl/b',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmsl3/b',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmsl1/b',
+        'service_name': 'stairlifts'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmk1/b',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmgg/b',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'homeroofing.deals/bmsn8',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmr/t',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmr6/rem',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'windowquotes.com/dg2',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'kfg/b',
+        'service_name': 'KC GG'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'kfg1/b',
+        'service_name': 'KC Gutter'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'kfsl1/b',
+        'service_name': 'KC Stairlifts'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'kfc1',
+        'service_name': 'KC Cabinet'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmf1',
+        'service_name': 'flooring'
+      },
+      {
+        'marketer_name': 'Zaid',
+        'account_name': 'fbmo',
+        'service_name': 'Organic'
+      }
+    ],
+    [
+      {
+        'marketer_name': 'special project',
+        'account_name': 'remodelingservice.net/nmsn23',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Campaign1',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Campaign1',
+        'service_name': 'MultiService'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'guttercover.zone/rb19',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Gutterprotect.net/rhg7',
+        'service_name': 'GG'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Homeroofing.Com/Lg3',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'remodeling.com/roofing/nmsn24',
+        'service_name': 'roofing'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Getwindowcosts.com/ng12',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Remodeling.com/windows/rhg6',
+        'service_name': 'windows'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'GetBathConversion.Com/nmsn56',
+        'service_name': 'bath_conversion'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Restorations.zone/ag4',
+        'service_name': 'restoration'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Estimates.Solar/hg17,hg117',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Solarestimates.net/ng05',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'top.solar/nmsn33',
+        'service_name': 'solar'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'PestControl.Contractors/hg19',
+        'service_name': 'pest_control'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Siding.Zone/kcg7',
+        'service_name': 'KC Siding'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Flooring.Contractors/Lg5',
+        'service_name': 'flooring'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'Flooring.Contractors/Lg6',
+        'service_name': 'flooring'
+      },
+      {
+        'marketer_name': 'special project',
+        'account_name': 'house.contractors/rbb4',
+        'service_name': 'siding'
+      }
+    ]
+  ]
+}
