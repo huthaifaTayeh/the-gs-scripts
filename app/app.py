@@ -16,6 +16,7 @@ class SheetsApp:
         self.marketing_accounts_df = pd.DataFrame()
         self.marketing_teams_df = pd.DataFrame()
         self.marketing_services_df = pd.DataFrame()
+        self.marketing_channels_df = pd.DataFrame()
         self.types = pd.DataFrame()
         self.set_meta_data_lists()
 
@@ -45,16 +46,17 @@ class SheetsApp:
         if self.sheet_exists('meta-data'):
             self.__set_marketers(self.read_from_range('meta-data!A:C'))
             self.__set_marketing_teams(self.read_from_range('meta-data!K:L'))
-            self.__set_marketing_accounts(self.read_from_range('meta-data!E:I'))
+            self.__set_marketing_accounts(self.read_from_range('meta-data!E:J'))
             self.__set_marketing_services(self.read_from_range('meta-data!N:O'))
+            self.__set_marketing_channels(self.read_from_range('meta-data!Q:R'))
             self.types = self.__get_types()
             return True
         else:
             return False
 
     def hydrate_campaign_sheets(self):
-        if not self.sheets_manager.sheet_exists(spreadsheet_id=self.spreadsheet_id, sheet_name='media-campaign'):
-            self.prepare_campaign_sheets(self.__format_weeks_headers())
+        # if not self.sheets_manager.sheet_exists(spreadsheet_id=self.spreadsheet_id, sheet_name='media-campaign'):
+        self.prepare_campaign_sheets(self.__format_weeks_headers())
         campaign_temp_dict = self.grouped_df_dict('teams')
         for team, team_data_list in campaign_temp_dict.items():
             self.sheets_manager.write_to_range(range_=f'{team}-campaign!A:F', data=team_data_list,
@@ -106,6 +108,9 @@ class SheetsApp:
     def __set_marketing_accounts(self, accounts_df):
         self.marketing_accounts_df = accounts_df
 
+    def __set_marketing_channels(self, channels_df):
+        self.marketing_channels_df = channels_df
+
     def __set_marketing_services(self, services_df):
         self.marketing_services_df = services_df
 
@@ -117,7 +122,7 @@ class SheetsApp:
         dataframes_list = []
         merged_df = self.marketing_teams_df.merge(self.marketers_df, on='team_id').merge(self.marketing_accounts_df,
                                                                                          on='marketer_id').merge(
-            self.marketing_services_df, on='service_id')
+            self.marketing_services_df, on='service_id').merge(self.marketing_channels_df, on='channel_id')
         grouped = merged_df.groupby('team_name')
         for team_name, group in grouped:
             output[team_name] = self.__create_nested_dict(group)
@@ -141,7 +146,7 @@ class SheetsApp:
     def __create_nested_dict(group: pd.DataFrame):
         # user_name = group['marketer_name'].tolist()
         accounts = group.groupby('marketer_name').apply(
-            lambda x: x[['marketer_name', 'account_name', 'service_name']].to_dict('records')).tolist()
+            lambda x: x[['marketer_name', 'account_name', 'service_name', 'channel_name']].to_dict('records')).tolist()
         return accounts
 
     def __get_types(self):

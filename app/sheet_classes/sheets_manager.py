@@ -19,7 +19,7 @@ class SheetsManager:
     def merge_dup_cells(self, spreadsheet_id, range_):
         self.sheet.merge_column_dup_cells(spreadsheet_id=spreadsheet_id, range_=range_)
 
-    def write_to_range(self, data, spreadsheet_id, range_, types):
+    def write_to_range(self, data, spreadsheet_id, range_, types=None):
         self.__confirm_or_create(spreadsheet_id, range_.split('!')[0])
         existing_data = self.read_data_from_range(spreadsheet_id, range_)
         self.sheet.write_data_to_range(data=data, range_=range_, spreadsheet_id=spreadsheet_id, types=types)
